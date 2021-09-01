@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        .b{
+            content:"" ;
+            position: fixed;
+            background-image: url(./paris.png);
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+            filter: blur(5px);
+            -webkit-filter: blur(5px);
+            -webkit-filter: blur(5px);
+            -moz-filter:blur(5px);
+            -o-filter:blur(5px);
+            -ms-filter: blur(5px);
+            width: 100vw;
+            height: 100vh;
+            z-index: -9;
+        
+        }
+        .container{
+
+            position: absolute;
+            z-index: 1;
+            top: 15%;
+            left: 38%;
+            background-color: white;
+            height: 150px;
+            width: 300px;
+            border: 3px solid red;
+            margin:auto;
+            margin-top: 250px;
+            text-align: center;
+            padding: 10px;
+            border-radius: 20px;
+           }
+           .add{
+               background-color: red;
+               width: 70px;
+               height: 30px;
+               border-radius: 10px;
+               align-items: center;
+               justify-content: center;
+               margin-left: 120px;
+            
+           }
+    </style>
+</head>
+<body>
+    <div class="b">
+
+    </div>
+    <div class="container">
+    <font style="color: red; font-size: 25px; margin-top: 200px; padding: 25px;">Add New Item </font>
+    <br><br>
+    <input type="text" name="Add New List" value="">
+    <br>
+    <br>
+    <br>
+    <div class="add">
+    <font
+        style="color:white;font-size: 25px;"</font>ADD
+    </div>
+    </div>
+</body>
+</html>
